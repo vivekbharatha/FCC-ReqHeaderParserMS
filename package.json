@@ -1,0 +1,23 @@
+{
+  "name": "fcc-req-header-parser-ms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekbharatha/FCC-ReqHeaderParserMS.git"
+  },
+  "author": "vivekbharatha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivekbharatha/FCC-ReqHeaderParserMS/issues"
+  },
+  "homepage": "https://github.com/vivekbharatha/FCC-ReqHeaderParserMS#readme"
+}
