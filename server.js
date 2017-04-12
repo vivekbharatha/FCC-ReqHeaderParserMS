@@ -10,7 +10,9 @@ http.createServer(function (req, res) {
 
 	response.software = req.headers['user-agent'].match(/\((.+?)\)/)[1];
 	response.language = req.headers['accept-language'].split(',')[0];
+
     res.writeHead(200, {'Content-Type': 'application/json'});
+
     return res.end(JSON.stringify(response));
 }).listen(port, function(err) {
     if (err) {
